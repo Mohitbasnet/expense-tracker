@@ -23,10 +23,10 @@ Register a new user account.
 **Request Body:**
 ```json
 {
-  "username": "johndoe",
-  "email": "john@example.com",
-  "first_name": "John",
-  "last_name": "Doe",
+  "username": "mohitbasnet",
+  "email": "mohitbasnet80@gmail.com",
+  "first_name": "Mohit",
+  "last_name": "Basnet",
   "password": "securepass123",
   "password_confirm": "securepass123"
 }
@@ -38,10 +38,10 @@ Register a new user account.
   "message": "User created successfully",
   "user": {
     "id": 1,
-    "username": "johndoe",
-    "email": "john@example.com",
-    "first_name": "John",
-    "last_name": "Doe"
+    "username": "mohitbasnet",
+    "email": "mohitbasnet80@gmail.com",
+    "first_name": "Mohit",
+    "last_name": "Basnet"
   },
   "tokens": {
     "refresh": "eyJ0eXAiOiJKV1QiLCJhbGc...",
@@ -68,7 +68,7 @@ Authenticate user and receive JWT tokens.
 **Request Body:**
 ```json
 {
-  "username": "johndoe",
+  "username": "mohitbasnet",
   "password": "securepass123"
 }
 ```
@@ -79,10 +79,10 @@ Authenticate user and receive JWT tokens.
   "message": "Login successful",
   "user": {
     "id": 1,
-    "username": "johndoe",
-    "email": "john@example.com",
-    "first_name": "John",
-    "last_name": "Doe"
+    "username": "mohitbasnet",
+    "email": "mohitbasnet80@gmail.com",
+    "first_name": "Mohit",
+    "last_name": "Basnet"
   },
   "tokens": {
     "refresh": "eyJ0eXAiOiJKV1QiLCJhbGc...",

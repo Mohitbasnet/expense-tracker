@@ -121,10 +121,10 @@ deactivate
 curl -X POST http://127.0.0.1:8000/api/auth/register/ \
   -H "Content-Type: application/json" \
   -d '{
-    "username": "johndoe",
-    "email": "john@example.com",
-    "first_name": "John",
-    "last_name": "Doe",
+    "username": "mohitbasnet",
+    "email": "mohitbasnet80@gmail.com",
+    "first_name": "Mohit",
+    "last_name": "Basnet",
     "password": "securepass123",
     "password_confirm": "securepass123"
   }'
@@ -136,10 +136,10 @@ curl -X POST http://127.0.0.1:8000/api/auth/register/ \
   "message": "User created successfully",
   "user": {
     "id": 1,
-    "username": "johndoe",
-    "email": "john@example.com",
-    "first_name": "John",
-    "last_name": "Doe"
+    "username": "mohitbasnet",
+    "email": "mohitbasnet80@gmail.com",
+    "first_name": "Mohit",
+    "last_name": "Basnet"
   },
   "tokens": {
     "refresh": "eyJ0eXAiOiJKV1QiLCJhbGc...",
@@ -154,7 +154,7 @@ curl -X POST http://127.0.0.1:8000/api/auth/register/ \
 curl -X POST http://127.0.0.1:8000/api/auth/login/ \
   -H "Content-Type: application/json" \
   -d '{
-    "username": "johndoe",
+    "username": "mohitbasnet",
     "password": "securepass123"
   }'
 ```
